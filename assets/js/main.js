@@ -95,13 +95,14 @@
 
 			}
 
-
-		var container = document.querySelector('#gallery');
-		var pckry = new Packery( container, {
-		  // options
-		  itemSelector: '.image',
-		  gutter: 0
-		});
+		setTimeout(function () {
+			var container = document.querySelector('#gallery');
+			var pckry = new Packery( container, {
+				// options
+				itemSelector: '.image',
+				gutter: 0
+			});
+		}, 1000);
 	});
 
 })(jQuery);
