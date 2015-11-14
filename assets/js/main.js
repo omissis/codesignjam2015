@@ -95,6 +95,13 @@
 
 			}
 
+
+		var container = document.querySelector('#gallery');
+		var pckry = new Packery( container, {
+		  // options
+		  itemSelector: '.image',
+		  gutter: 0
+		});
 	});
 
 })(jQuery);
